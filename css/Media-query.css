@@ -1,0 +1,43 @@
+/* Phone screens */
+@media(max-width:768px)
+{
+  .hide {
+    display: none;
+  }
+  .sidebar h3::before, .sidebar h3::after {
+    display: none;
+  }
+  .sidebar {
+    text-align: center;
+    width: fit-content;
+  }
+  
+  .home .box:first-child .special-heading span {
+    position: relative;
+    bottom: 10px;
+  }
+}
+/* end media */
+
+/*start box media query */
+@media (max-width:500px) 
+{
+  .boxs  {
+    grid-template-columns: repeat(auto-fill, minmax(90%, 1fr));
+
+  }
+
+  .box .head img {
+    width: 50%;
+  }
+  .departments  {
+    padding: 0;
+  }
+  .departments .boxs {
+    width: 100%;
+  }
+  .departments .boxs .box{
+    width: 100%;
+  }
+}
+/*end box media query */

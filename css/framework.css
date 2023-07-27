@@ -1,0 +1,215 @@
+/* Start Box  */
+.d-flex {
+  display: flex;
+}
+
+.d-block {
+  display: block;
+}
+
+.align-start {
+  align-items: start;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.align-end {
+  align-items: end;
+}
+
+.justify-s-between {
+  justify-content: space-between;
+}
+
+.justify-s-around {
+  justify-content: space-around;
+}
+
+.justify-c {
+  justify-content: center;
+}
+
+.justify-r {
+  justify-content: right;
+}
+
+.d-column {
+  flex-direction: column;
+}
+
+.gap-20 {
+  gap: 20px;
+}
+
+/* End Box  */
+
+/* Start special style */
+.special-heading span {
+  font-size: 16px;
+  color: #888888;
+  align-self: center;
+}
+/* End special style */
+
+/* Start padding + margin  */
+.p-10 {
+  padding: 10px;
+}
+.p-20 {
+  padding: 20px;
+}
+
+.m-0 {
+  margin: 0;
+}
+
+.m-20 {
+  margin: 20px;
+}
+
+.mb-20 {
+  margin-bottom: 20px;
+}
+
+.mb-40 {
+  margin-bottom: 40px;
+}
+
+.pt-0 {
+  padding-top: 0;
+}
+
+.mt-0 {
+  margin-top: 0;
+}
+
+.w-30pc {
+  width: 30%;
+}
+
+.max-height {
+  max-height: 400px;
+}
+/* End padding + margin  */
+
+/* Start color  */
+.bg-white {
+  background-color: white;
+}
+
+.bg-eee {
+  background-color: #eee;
+}
+
+.bg-F1F5F9 {
+  background-color: #F1F5F9;
+}
+
+.c-black {
+  color: black;
+}
+.c-white {
+  color: white;
+}
+.c-gray {
+  color: #888888;
+}
+.c-green {
+  color: #22c55e;
+}
+.c-red {
+  color: #f44336;
+}
+.c-orange {
+  color: #f59e0b;
+}
+.c-blue {
+  color: #0075FF;
+}
+
+/* End color  */
+
+/* Start position  */
+.p-relative {
+  position: relative;
+}
+.p-absolute {
+  position: absolute;
+}
+/* End position  */
+
+/* Start font  */
+.text-c {
+  text-align: center;
+}
+
+.fs-14 {
+  font-size: 14px;
+}
+
+.text-upper {
+  text-transform: uppercase;
+}
+
+.main-title {
+  position: relative;
+  margin: 0;
+}
+
+.main-title::after {
+content: '';
+height: 3px;
+width: 40px;
+position: absolute;
+left:0;
+bottom: 0;
+background-color: black;
+}
+
+.fw-weight  {
+  font-weight: bold;
+}
+.fw-weight  {
+  font-weight: bold;
+}
+
+.fs-25 {
+  font-size: 25px;
+}
+.fs-2vw {
+  font-size: 2vw;
+}
+.fs-3vw {
+  font-size: 3vw;
+}
+.fs-4vw {
+  font-size: 4vw;
+}
+/* End font  */
+
+/* Start border  */
+.rad-6 {
+    border-radius: 6px;
+}
+
+.bt-eee {
+  border-top: solid 1px #eee;
+}
+
+.bb-eee {
+  border-bottom: solid 1px #eee;
+}
+/* End border  */
+
+/* Start effect  */
+.active {
+  background-color: #eee;
+}
+
+/* End effect  */
+
+/* Start Header  */
+
+/* End Header  */
