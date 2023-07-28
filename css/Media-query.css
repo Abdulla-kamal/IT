@@ -22,7 +22,7 @@
 /*start box media query */
 @media (max-width:500px) 
 {
-  .boxs  {
+  .home .boxs  {
     grid-template-columns: repeat(auto-fill, minmax(90%, 1fr));
 
   }
@@ -30,14 +30,6 @@
   .box .head img {
     width: 50%;
   }
-  .departments  {
-    padding: 0;
-  }
-  .departments .boxs {
-    width: 100%;
-  }
-  .departments .boxs .box{
-    width: 100%;
-  }
+
 }
 /*end box media query */
