@@ -89,6 +89,10 @@
   width: 30%;
 }
 
+.w-100pc {
+  width: 100%;
+}
+
 .max-height {
   max-height: 400px;
 }
