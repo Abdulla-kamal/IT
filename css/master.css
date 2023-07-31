@@ -169,12 +169,10 @@ header i::after {
   background-color: #eeeeee;
 }
 
-.home .box .head img {
-  width: 200px;
+.box .head img {
+  width: 50%;
 }
 
-.home .box .head {
-}
 
 .home .box:first-child .body img {
   width: 64px;
