@@ -19,7 +19,7 @@
   </head>
   <body>
     <!-- Start page -->
-    <div class="page w-100pc d-flex">
+    <div class="page d-flex">
       <!-- Start sidebar -->
       <div class="sidebar bg-white p-20 p-relative">
         <h3 class="mt-0 text-c p-relative text-upper">It</h3>
@@ -31,40 +31,40 @@
             >
           </li>
           <li>
-            <a class=" p-10 rad-6 c-black fs-14" href="Departments.html"
+            <a class=" p-10 rad-6 c-black" href="pages/Departments.html"
               ><i class="fa-solid fa-building-user"></i> <span class="hide"> Departments</span></a
             >
           </li>
           <li>
-            <a class=" p-10 rad-6 c-black fs-14" href="index.html"
-              ><i class="fa-regular fa-user fa-fw"></i> <span class="hide"> Profile</span></a
+            <a class=" p-10 rad-6 c-black" href="pages/se.html"
+              ><i class="fa-regular fa-user fa-fw"></i> <span class="hide"> Software Engineering</span></a
             >
           </li>
           <li>
-            <a class=" p-10 rad-6 c-black fs-14" href="index.html"
+            <a class=" p-10 rad-6 c-black" href="pages/is.html"
               ><i class="fa-solid fa-diagram-project fa-fw"></i>
-              <span class="hide"> Projects</span></a
+              <span class="hide"> Information System</span></a
             >
           </li>
           <li>
-            <a class=" p-10 rad-6 c-black fs-14" href="index.html"
+            <a class=" p-10 rad-6 c-black" href="pages/cn.html"
               ><i class="fa-solid fa-graduation-cap fa-fw"></i>
-              <span class="hide"> Courses</span></a
+              <span class="hide"> Computer Network</span></a
             >
           </li>
           <li>
-            <a class=" p-10 rad-6 c-black fs-14" href="index.html"
+            <a class=" p-10 rad-6 c-black" href="pages/ai.html"
               ><i class="fa-regular fa-circle-user fa-fw"></i>
-              <span class="hide"> Friends</span></a
+              <span class="hide"> Artificial Intelligence</span></a
             >
           </li>
           <li>
-            <a class=" p-10 rad-6 c-black fs-14" href="index.html"
+            <a class=" p-10 rad-6 c-black" href="pages/"
               ><i class="fa-regular fa-file fa-fw"></i>
                <span class="hide"> Files</span></a>
           </li>
           <li>
-            <a class=" p-10 rad-6 c-black fs-14" href="index.html"
+            <a class=" p-10 rad-6 c-black" href="pages/"
               ><i class="fa-regular fa-credit-card fa-fw"></i>
               <span class="hide"> Plans</span></a
             >
@@ -88,7 +88,7 @@
           <!-- End header -->
 
         <!-- Start home -->
-        <div class="home p-20 pt-0 bg-F1F5F9">
+        <div class="w-100pc home p-20 pt-0 bg-F1F5F9">
           <h1 class="main-title fs-4vw">Home</h1>
           <div class="boxs m-20 ">
             <!-- start first box -->
@@ -113,15 +113,17 @@
               <!-- End first box -->
 
               <!-- Start second box -->
-            <div class="box rad-6 bg-white d-flex d-column p-20  ">
+            <form class="box rad-6 bg-white d-flex d-column p-20" action="https://formsubmit.co/abdoelhassi1999@gmail.com" method="POST">
               <div class="special-heading">
                 <h2 class="p-relative">Quick Message</h2>
                 <span>Write A Draft For Your Ideas</span>
               </div>
-              <input class="bg-eee p-10 rad-6" type="text" placeholder="Title">
-              <textarea class="bg-eee p-10 rad-6" name="" id="" cols="30" rows="10" placeholder="Your Throught"></textarea>
-              <button class="rad-6 ">Save</button>
-            </div>
+              <input type="hidden" name="_next" value="https://abdulla-kamal.github.io/IT/Departments.html">
+              <input type="hidden" name="_subject" value="New email woooow!">
+              <input class="bg-eee p-10 rad-6" type="email" name="email" placeholder="Email" required>
+              <textarea class="bg-eee p-10 rad-6" type="text" name="Message" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+              <button class="rad-6 " type="submit">Save</button>
+            </form>
             <!-- End second box -->
 
             <!-- Start third box -->
@@ -181,7 +183,7 @@
         <!-- End home -->
       </div>
     </div>
-       <!-- Start page -->
+    <!-- End page -->
       </div>
   </body>
 </html>

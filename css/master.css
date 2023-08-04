@@ -7,6 +7,7 @@
 body {
   margin: 0;
   font-family: "Cairo", sans-serif;
+  background-color: #F1F5F9;
 }
 
 ul {
@@ -156,7 +157,7 @@ header i::after {
 /* Start home  */
 .home .boxs {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(40%, 1fr));
   gap: 20px;
 }
 
@@ -428,3 +429,105 @@ header i::after {
 
 /* End home  */
 
+
+/* Start some styles */
+
+.sidebar span {
+  text-wrap:nowrap;
+  font-size: 2vh !important;
+}
+
+.sidebar  a {
+  text-wrap:nowrap;
+}
+
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
+
+/* body {
+  background: linear-gradient(to right, #917173, #2a3b36, #432c52);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+ /* Start loading  */
+.loading {
+  position: absolute;
+  left: 60%;
+  top: 40%;
+  transform: translate(-50%, -50%);
+}
+
+.loading h1 {
+  margin-bottom: 80px;
+  color: lightslategrey;
+  text-transform: capitalize;
+  font-family: monospace;
+  text-align: center;
+}
+ 
+.loader {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.loader::before {
+  content: "";
+  background: rgba(24, 24, 24, 0);
+  backdrop-filter: blur(8px);
+  position: absolute;
+  width: 140px;
+  height: 55px;
+  z-index: 20;
+  border-radius: 0 0 10px 10px;
+  border: 1px solid rgba(255, 255, 255, 0.274);
+  border-top: none;
+  box-shadow: 0 15px 20px rgba(0, 0, 0, 0.082);
+  animation: anim2 2s infinite;
+}
+
+.loader div {
+  background: rgb(117 111 111);
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  z-index: -1;
+  animation: anim 2s infinite linear;
+  animation-delay: calc(-0.3s * var(--i));
+  transform: translateY(5px);
+  margin: 0.2em;
+}
+
+@keyframes anim {
+  0%,
+  100% {
+    transform: translateY(5px);
+  }
+  50% {
+    transform: translateY(-65px);
+  }
+}
+
+@keyframes anim2 {
+  0%,
+  100% {
+    transform: rotate(-10deg);
+  }
+  50% {
+    transform: rotate(10deg);
+  }
+}
+ /* End loading  */
+
+
+/* End some styles */
