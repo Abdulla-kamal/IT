@@ -1,3 +1,14 @@
+
+@media(max-width: 767px)
+{
+.page {
+  width: 100%;
+}
+}
+
+
+
+
 /* Phone screens */
 @media(max-width:768px)
 {
