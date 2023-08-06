@@ -33,7 +33,7 @@
 /*start box media query */
 @media (max-width:500px) 
 {
-  .home .boxs  {
+  .page .boxs  {
     grid-template-columns: repeat(auto-fill, minmax(90%, 1fr));
 
   }
