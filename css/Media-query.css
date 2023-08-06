@@ -31,5 +31,9 @@
     width: 50%;
   }
 
+  .box p {
+    font-size: 14px;
+  }
+
 }
 /*end box media query */
