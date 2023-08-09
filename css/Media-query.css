@@ -22,6 +22,10 @@
     position: relative;
     bottom: 10px;
   }
+
+  .page .home .box {
+    width: 98%;
+  }
 }
 /* end media */
 
@@ -39,10 +43,6 @@
 
   .box p {
     font-size: 14px;
-  }
-
-  .page .home .box {
-    width: 98%;
   }
 
   .page {
