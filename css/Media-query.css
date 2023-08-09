@@ -41,6 +41,10 @@
     font-size: 14px;
   }
 
+  .page .home .box {
+    width: 98%;
+  }
+
   .page {
     width: 100%;
   }
