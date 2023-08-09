@@ -23,6 +23,14 @@
     bottom: 10px;
   }
 
+  .home {
+    width: 100%;
+  }
+
+  .boxs {
+    width: 100%;
+  }
+
   .page .home .box {
     width: 98%;
   }
