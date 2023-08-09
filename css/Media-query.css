@@ -1,10 +1,5 @@
 
-@media(max-width: 767px)
-{
-.page {
-  width: 100%;
-}
-}
+
 
 
 
@@ -44,6 +39,10 @@
 
   .box p {
     font-size: 14px;
+  }
+
+  .page {
+    width: 100%;
   }
 
 }
