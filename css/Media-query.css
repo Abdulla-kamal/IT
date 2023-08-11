@@ -23,14 +23,6 @@
     bottom: 10px;
   }
 
-  .home {
-    width: 100%;
-  }
-
-  .boxs {
-    width: 100%;
-  }
-
   .page .home .box {
     width: 98%;
   }
@@ -40,10 +32,6 @@
 /*start box media query */
 @media (max-width:500px) 
 {
-  .page .boxs  {
-    grid-template-columns: repeat(auto-fill, minmax(90%, 1fr));
-
-  }
 
   .box .head img {
     width: 50%;
@@ -51,10 +39,6 @@
 
   .box p {
     font-size: 14px;
-  }
-
-  .page {
-    width: 100%;
   }
 
 }
