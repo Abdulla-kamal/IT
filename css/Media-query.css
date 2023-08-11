@@ -26,6 +26,10 @@
   .page .home .box {
     width: 98%;
   }
+
+  .home .boxs {
+    grid-template-columns: repeat(auto-fill, minmax(90%, 1fr));
+  }
 }
 /* end media */
 
