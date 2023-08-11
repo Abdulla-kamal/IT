@@ -52,7 +52,7 @@ h2 {
 
 /* Start sidebar  */
 .sidebar {
-  flex-basis: 20%;
+  width: 250px;
 }
 
 .sidebar h3::before {
@@ -101,7 +101,7 @@ h2 {
 
 /* Start content  */
 .content {
-  flex-basis: 80%;
+  width: 100%;
 }
 /* End content  */
 

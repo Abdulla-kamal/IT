@@ -23,12 +23,8 @@
     bottom: 10px;
   }
 
-  .page .home .box {
-    width: 98%;
-  }
-
   .home .boxs {
-    grid-template-columns: repeat(auto-fill, minmax(90%, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(98%, 1fr));
   }
 }
 /* end media */
